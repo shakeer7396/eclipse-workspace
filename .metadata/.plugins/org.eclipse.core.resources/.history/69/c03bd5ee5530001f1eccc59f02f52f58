@@ -1,0 +1,16 @@
+package class7_Inheritance1;
+//Implementation of inheritance with classes
+public class AdminCh extends DeveloperFa { //Doubles classes are working in class its multilevel inheritance
+	//This class takes automatically with Grand parent class GuestGP and parent DeveloperFa 
+//	public void read() {
+//		System.out.println("Operation reading access");
+//	}
+//	public void write() {
+//		System.out.println("Operation Writing access");
+//	}
+	//Adding or deleting the products/application
+	public void manage() {
+		System.out.println("Operation Manage access");
+	}
+
+}

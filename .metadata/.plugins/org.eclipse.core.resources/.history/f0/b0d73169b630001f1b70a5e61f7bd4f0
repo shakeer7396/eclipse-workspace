@@ -1,0 +1,15 @@
+package class9_interfaces;
+//This is a just business document or set of rules and guidelines, another implementer also is called class so create other classes
+//Every class is a business implementer
+public interface Laptop {
+
+	//Every rule is a one method in interface, Interface tells what to do.
+	public void copy();
+	
+	public void paste();
+	
+	public void cut();
+	
+	public void keyboard();
+	
+}

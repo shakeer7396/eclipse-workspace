@@ -1,0 +1,11 @@
+package class7_Inheritance1;
+//Implementation of inheritance with classes
+public class DeveloperFa {
+public void read() {
+	System.out.println("Operation reading access");
+}
+//Reading and Writting the code or application
+public void write() {
+	System.out.println("Operation Writting access");
+}
+}

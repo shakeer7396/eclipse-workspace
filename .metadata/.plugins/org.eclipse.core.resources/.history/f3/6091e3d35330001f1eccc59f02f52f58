@@ -1,0 +1,15 @@
+package class7_Inheritance1;
+//Implementation of inheritance with classes
+public class AdminCh {
+	public void read() {
+		System.out.println("Operation reading access");
+	}
+	public void write() {
+		System.out.println("Operation Writting access");
+	}
+	//Adding or deleting the products/application
+	public void manage() {
+		System.out.println("Operation Manage access");
+	}
+
+}

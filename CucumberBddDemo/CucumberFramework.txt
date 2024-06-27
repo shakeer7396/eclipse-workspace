@@ -1,0 +1,38 @@
+ session#1
+---------------
+1. What is BDD
+2. BDD(Behavior Driven Testing)  vs TDD (Test Driven Testing)
+3. What is cucumber
+4. Gherkhin language
+5. Important terms/keywords of Gherkhin language
+6. Practical Demo - used ecommerce website https://admin-demo.nopcommerce.com/login
+
+Created maven project in eclipse IDE
+Added cucumber- eclipse plugin
+
+created project structure
+	PageObject (package)
+	Utilities(package)
+	StepDefinition(package)
+	TestRunner (package)
+	Features(folder for feature files)
+	Target(folder  for reports)
+	Updated pom.xml for project dependencies
+created feature file (.feature ) for login test feature
+created pageobject class for login web page
+created step definition file for feature file (login test feature)
+created test runner file to run test case
+Generated test report
+	
+Session#2
+---------
+Data Driven Testing
+	Scenario outline keyword
+	Examples:
+Generated Reports in HTML, JSON & XML format
+Added new feature file (Add new customer)
+	Created feature file (customers.feature)
+	Added test steps in Gherkin language
+	Created page object class for add new customer page
+	created step definition for customers.feature file 
+	Executed test script (customers.feature) using test 	runner file (run.java)

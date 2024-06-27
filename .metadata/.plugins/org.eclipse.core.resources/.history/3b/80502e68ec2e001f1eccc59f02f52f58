@@ -1,0 +1,17 @@
+package class3;
+
+public class VariablesDemo {
+	int id=100; //instance variables (non static fields)
+	
+	static int num = 500; // Its class Variable use static in every variable put every where in class not in method,
+	//Above static variables are called Global variables you can use every where in class and any method also without
+	//use obj
+	
+	public static void main(String[] args) {
+		VariablesDemo variablesDemo =new VariablesDemo();//its a constructor, create instance for instance variable.
+		System.out.println(variablesDemo.id); // Accessing above instance variable only with the help of object, not directly
+		int height = 7; //Its a local variable you can access in locally with this method only use directly
+		System.out.println(height);		
+	}
+
+}

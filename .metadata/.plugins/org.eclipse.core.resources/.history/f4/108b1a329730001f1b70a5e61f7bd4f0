@@ -1,0 +1,27 @@
+package class9_interfaces;
+//Implement is a keyword used for implementing the interfaces
+//Un implement methods are known as abstract methods
+
+public class Lenovo implements Laptop{
+
+	@Override
+	public void copy() {
+		
+	}
+
+	@Override
+	public void paste() {
+		
+	}
+
+	@Override
+	public void cut() {
+		
+	}
+
+	@Override
+	public void keyboard() {
+		
+	
+}
+}
