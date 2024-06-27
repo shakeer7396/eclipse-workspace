@@ -5,6 +5,7 @@ public class Test {
 	public static void main(String[] args) {
 	//Shortcut for print statement for type Syso and ctrl+space then enter
 		System.out.println("Hello World");
+		System.out.println("Its a first code");
 	}
 
 }
